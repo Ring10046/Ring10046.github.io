@@ -1,0 +1,36 @@
+body{
+  background: url("https://www.simplydreamtravel.com/wp-content/uploads/2015/04/White-Sand-Beach-Background.jpg");
+}
+h1{
+  font-family: "Merriweather", cursive;
+  font-size: 30px;
+  text-align: center;
+  color:#24326d;
+}
+ol{
+  font-family: "Merriweather", monospace;
+  color: #6f6f6f;
+  font-size: 20px
+}
+h2{
+  list-style-type: circle;
+  font-size: 18px;
+  font-family:monospace;
+  color: #1f8bc4;
+}
+h3{
+  color: #000000;
+  font-family: "Merriweather", cursive;
+  text-align: center;
+  font-size: 18px
+}
+a {
+  color: rgb(230, 104, 158);
+}
+img {
+  height:250px;
+  width: 400px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto
+}

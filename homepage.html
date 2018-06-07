@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel= "stylesheet" type="text/css" href="homepage.css" 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <body style="background-image:url(https://images.pexels.com/photos/59519/pexels-photo-59519.jpeg?auto=compress&cs=tinysrgb&h=350)" >
+    
+
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a> 
+      <a href="index4.html"><i class="fa fa-envelope"></i></a> 
+      <a href="comingsoon.html"><i class="fa fa-globe"></i></a>
+    </div>
+    <img src="https://image.freepik.com/free-icon/airplane-flight-in-circle-around-earth_318-60866.jpg" alt="Avatar">
+<h1>
+Voyagerworld
+</h1>
+<h2><strong>Home Page</strong></h2>
+    
+<a href="images.html">Travel Photos</a>
+    
+    <h3>       </h3>
+
+<a href="index.html">Top Vacation Spots</a>
+    <h4>      </h4>
+    
+    <button onclick="typeWriter()">About Us</button>
+
+    <p id="demo"></p>
+
+    <script>
+      var i = 0;
+      var txt = 'This webpage is created for the purpose to inform users about travel.';
+      var speed = 50;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
+
+    
+    
+    <div class="icon-bar1">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+      <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div>
+
+        
+  </body>
+</html>

@@ -1,7 +1,85 @@
+body{
+  background-image: url("https://www.simplydreamtravel.com/wp-content/uploads/2015/04/White-Sand-Beach-Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  font-family: "Merriweather", cursive;
+  font-size: 25px;
+}
+h3 {
+  font-family: "Merriweather", monospace;
+}
+ul {
+  list-style-type: circle;
+  font-size: 18px;
+  font-family:monospace;
+  color: #196c77;
+}
+p {
+  color: #000000;
+  font-family:"Merriweather", 
+}
 img {
-  width:20%;
-  height:auto;
+  height:250px;
+  width: 400px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto
+}
+h4 {
+  font-family: "Merriweather", cursive;
+  font-size: 25px;
+}
+div1 {
+  font-family: "Merriweather", monospace; 
+  color:#848484
+}
+p {
+  text-align: center
+}
+h5 {
+  text-align:center;
+  text-decoration-line: underline;
+  text-decoration-style: wavy
 }
 a {
-  color: #7054e6
+  color: rgb(230, 104, 158);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-style:none
+}
+
+li a:hover {
+  background-color: #5bccdb;
+}
+#bar {
+  background-color: #434343
+}
+h6{
+list-style-type: circle;
+font-size: 18px;
+font-family:monospace;
+color: #1f8bc4;
 }

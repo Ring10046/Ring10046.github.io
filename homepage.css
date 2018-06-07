@@ -1,0 +1,171 @@
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgba(255, 200, 247, 0.76);
+}
+
+.active {
+  background-color: #5ab3ff !important;
+}
+h1{
+  text-align: left;
+  font-family:monospace;
+  font-size: 15px;
+  color:#a0a0a3
+}
+h2{
+  text-align: center;
+  font-family:monospace;
+  font-size: 80px;
+  color: #8b8be6;
+}
+body {
+  background-color: #b0deff
+}
+img {
+  height:40px;
+  width: 40px;
+  display:block;
+  image-orientation: auto;
+  border-radius: 50%;
+}
+a {
+  color:#160e4e;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+  
+
+
+body {margin:0;height:2000px;}
+
+.icon-bar1 {
+  position: fixed;
+  top: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar1 a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar1 a:hover {
+  background-color: #000;
+}
+
+.facebook1 {
+  background: #3B5998;
+  color: white;
+}
+
+
+.linkedin1 {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+
+
+
+button { 
+  background-color: rgba(47, 43, 75, 0.69);
+  color: rgba(255, 255, 255, 0.62);
+  border: 2px solid rgba(59, 89, 152, 0.65);
+  font-size: 30px
+}
