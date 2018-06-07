@@ -1,1 +1,0 @@
-# Ring10046.github.io

@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('https://media.istockphoto.com/photos/commercial-jet-flying-over-clouds-picture-id155380716?k=6&m=155380716&s=612x612&w=0&h=F4Mf-1g9JhJcHY_X-gQ1_H80ljjL0BgnvBLBrGsD9_w=');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+img {
+  height:40px;
+  width: 40px;
+  display:block;
+  image-orientation: left;
+  border-radius: 50%;
+}
