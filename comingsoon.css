@@ -45,3 +45,17 @@ img {
   image-orientation: left;
   border-radius: 50%;
 }
+
+
+h2{
+  text-align: left;
+  font-family:monospace;
+  font-size: 15px;
+  color:#a0a0a3
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  margin-top:0px;
+}
